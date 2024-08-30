@@ -15,13 +15,28 @@ ol{
     padding: 1rem;
     display: flex;
     flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
     align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 
 ol li{
     background-color: fuchsia;
-    margin: 2px;
+    /* margin: 2px; */
     padding: 0.5rem;
     border-radius: 5px;
+}
+
+.first{
+    order: 2;
+}
+
+.second{
+    order: 3;
+}
+
+.third{
+    order: 1;
 }
