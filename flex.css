@@ -90,10 +90,90 @@ ol li{
     margin-top: 50px;
     background-color: bisque;
     padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    color: yellow;
 }
 
 .container1 *{
     background-color: crimson;
     margin-bottom: 0.5rem;
     padding: 1rem;
+}
+
+.container1 header{
+    flex: 1 100%;
+
+}
+
+.container1 .left{
+    flex: 1;
+
+}
+
+.container1 main{
+    flex: 4;
+
+}
+
+.container1 .right{
+    flex: 4;
+
+}
+
+.container1 footer{
+    flex: 1 100%;
+}
+
+.container2 *{
+    background-color: olive;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+
+.container2 header{
+    background-color: orange;
+    width: 100%;
+}
+
+.container2 footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2 main{
+    background-color: skyblue;
+    width: 50%;
+    flex-grow: 1;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://picsum.photos/id/684/600/400");
+    background-size: cover;
+    background-position: top;
+    gap: 10px;
+}
+
+.container2 .left{
+    background-color: teal;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container2 .right{
+    background-color: deeppink;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
