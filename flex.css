@@ -40,3 +40,16 @@ ol li{
 .third{
     order: 1;
 }
+
+.cont{
+    border: 2px solid red;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+
+.item{
+    background-color: orange;
+}
